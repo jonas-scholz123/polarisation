@@ -1,0 +1,10 @@
+DATA_PATH = "/media/jonas/Extreme SSD/research/polarisation/data/2019_12/"
+NETWORK_PATH = "./intermediate_data/network_matrices/"
+ID_DICT_PATH = "./intermediate_data/id_to_sub_dicts/"
+COUNT_COL_NAME = "f0_"
+MIN_COUNT_BOT_EXCLUSION = 500
+SUBREDDIT_COMMENT_THRESHOLD = 1000
+REBUILD = False
+SAVE = True
+SAMPLE_DF = False
+MONTH = "2019_12"
