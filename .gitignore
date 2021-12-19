@@ -7,7 +7,7 @@ __pycache__/
 .pytest_cache/
 *.py[cod]
 
-# C extensions
+# C extensionWrRWSscAP7Muis
 *.so
 
 # Distribution / packaging
