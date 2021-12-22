@@ -10,5 +10,15 @@ def get_strongest_overlaps(sub):
     tuples =  sorted(enumerate(subsec), key = lambda x: x[1], reverse = True)
     return [(id_to_sub[i], overlap) for i, overlap in tuples]
 
-get_strongest_overlaps("The_Donald")
+# %%
+get_strongest_overlaps("politics")
+#%%
+
+pairs = []
+
+for i, row in enumerate(network):
+    for j, val in enumerate(row):
+        if val != 0:
+            pairs.append((i, j, val))
+
 # %%

@@ -14,3 +14,4 @@ ndarray = "0.13.0"
 csv = "1.1"
 serde = { version = "1.0", features = ["derive"] }
 itertools = "0.10.3"
+indicatif = "0.16.2"
